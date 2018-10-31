@@ -1,0 +1,6 @@
+dependencies {
+    compile([group:"net.randomsort.gradle", name: "B", version:"0.0.1-SNAPSHOT", transitive: true]) {
+        exclude group: "net.randomsort.gradle", module: "C"
+    }
+    compile([group:"net.randomsort.gradle", name: "C", version: "0.0.2-SNAPSHOT"])
+}

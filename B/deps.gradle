@@ -1,0 +1,4 @@
+dependencies {
+    compile([group: "net.randomsort.gradle", name: "C", version: "0.0.1-SNAPSHOT"])
+    compile([group: "net.randomsort.gradle", name: "D", version: "0.0.1-SNAPSHOT"])
+}
